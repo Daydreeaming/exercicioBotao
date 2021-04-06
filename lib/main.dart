@@ -43,9 +43,7 @@ class _CounterScreenState extends State<CounterScreen> {
           FloatingActionButton(
             onPressed: () {
               setState(() {
-                if (counter >= 0) {
                   counter -= 1;
-                }
               });
             },
             child: Icon(Icons.remove),
